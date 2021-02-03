@@ -1,5 +1,5 @@
 # Operating-Systems-1
-Codes that was developed for my operating systems class
+Codes that was developed for my operating systems class <br/>
 Index of assignments:
 Assignment 1 is a program that reads in a file for movies, stores them in a struct, then organizes them based on user preferences. (Assignment focused on files)
 Assignment 2 is a program that reads in a file that the user can choose in the current directory, then it crates a file for ever year in the input file and puts it in a new directory created by the program (Assignment focused on files and directories)
