@@ -10,6 +10,7 @@ Assignment 2 is a program that reads in a file that the user can choose in the c
 
 ### Assignment 3 mini shell
 Assignment 3 is a program that is a basic recreation of a shell. This allows the user to run commands that are found on the normal shell such as "ls" "cd" "ping" etc. The program also allows the user to redirect output, take input, and run a program in the background. Each command is run on its own process created by the program, which is monitored by the program and propperly cleaned up. Background programs are also minotored and cleaned when finished to prevent zombie-processes<br/>
+<img width="691" alt="Screen Shot 2022-07-18 at 11 56 24 AM" src="https://user-images.githubusercontent.com/41707123/179583283-50ca2770-59a7-428a-8bee-932aeaeb4ce2.png">
 
 
 ### Assignment 4 multi-threading
