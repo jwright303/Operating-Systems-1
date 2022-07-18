@@ -19,7 +19,7 @@ Assignment 4 is a multi-threaded program where one thread reads in input from st
 
 
 ### Assignment 5 interprocess communication
-Assignment 5 is a server and client program where programs talk to each other through ports on the local machine. This program takes in a file through the encoding client, which then contact the encoding server and passes it a file to encode. This server then creates a newly encoded file. The decoded server then gives a port and file which then contacts the decoding server which decodes the given file and outputs the result to a new file<br/>
+Assignment 5 is a server and client program where programs talk to each other through ports on the local machine. It starts with the encoding server which is given a port to work with and should be run in the background. The enc client is then used to communicate with the enc server. The enc client should be given a plaintext file, a key file, and the port of the server it needs to communicate with. After the client communicates with the server and encrypts the plaintext, this will be printed out. Next the dec server must be set up in the same was as the enc server but with a different port. Finally, the dec client will be used in a similar way to the enc client where it is given a ciphertext file, a key file, and the port to talk with the dec server on. This project directory also includes a compile all script and a clean Ex script which will compile all the needed files, and remove all the executables respectively. <br/>
 <img width="547" alt="Screen Shot 2022-07-18 at 12 19 47 PM" src="https://user-images.githubusercontent.com/41707123/179600527-2d7fc721-33ed-4cd0-b552-726edc3148bf.png">
 
 
