@@ -25,3 +25,4 @@ Assignment 5 is a server and client program where programs talk to each other th
 
 ### Assignment 6 multi-threading in rust
 Assignment 6 is a multi-threaded program in rust which reads in a number of partitions from the user, creates a thread for each partition that generates random numbers and collects the sum for each partition adding all the sums at the end for the total sum.<br/>
+<img width="338" alt="Screen Shot 2022-07-18 at 12 46 18 PM" src="https://user-images.githubusercontent.com/41707123/179604780-7999b854-7c60-4408-a01c-3c2040ca5ff8.png">
