@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -f dec_server
+rm -f enc_server
+rm -f dec_client
+rm -f enc_client
+rm -f keygen
