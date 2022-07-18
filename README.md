@@ -15,6 +15,8 @@ Assignment 3 is a program that is a basic recreation of a shell. This allows the
 
 ### Assignment 4 multi-threading
 Assignment 4 is a multi-threaded program where one thread reads in input from std-in, one thread replaces each '\n' with a space, one thread replaces every '++' with a '^', and the last thread outputs to std-out with 80 charachters per line. The program uses mutual exlusion to avoid race conditions found with sharing resources.<br/>
+<img width="1421" alt="Screen Shot 2022-07-18 at 12 06 22 PM" src="https://user-images.githubusercontent.com/41707123/179590694-9a607d06-7793-455f-a12f-bf6219f61bc2.png">
+
 
 ### Assignment 5 interprocess communication
 Assignment 5 is a server and client program where programs talk to each other through ports on the local machine. This program takes in a file through the encoding client, which then contact the encoding server and passes it a file to encode. This server then creates a newly encoded file. The decoded server then gives a port and file which then contacts the decoding server which decodes the given file and outputs the result to a new file<br/>
