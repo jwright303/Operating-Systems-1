@@ -20,6 +20,8 @@ Assignment 4 is a multi-threaded program where one thread reads in input from st
 
 ### Assignment 5 interprocess communication
 Assignment 5 is a server and client program where programs talk to each other through ports on the local machine. This program takes in a file through the encoding client, which then contact the encoding server and passes it a file to encode. This server then creates a newly encoded file. The decoded server then gives a port and file which then contacts the decoding server which decodes the given file and outputs the result to a new file<br/>
+<img width="547" alt="Screen Shot 2022-07-18 at 12 19 47 PM" src="https://user-images.githubusercontent.com/41707123/179600527-2d7fc721-33ed-4cd0-b552-726edc3148bf.png">
+
 
 ### Assignment 6 multi-threading in rust
 Assignment 6 is a multi-threaded program in rust which reads in a number of partitions from the user, creates a thread for each partition that generates random numbers and collects the sum for each partition adding all the sums at the end for the total sum.<br/>
