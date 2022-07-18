@@ -14,7 +14,7 @@ Assignment 3 is a program that is a basic recreation of a shell. This allows the
 
 
 ### Assignment 4 multi-threading
-Assignment 4 is a multi-threaded program where one thread reads in input from std-in, one thread replaces each '\n' with a space, one thread replaces every '++' with a '^', and the last thread outputs to std-out with 80 charachters per line. The program uses mutual exlusion to avoid race conditions found with sharing resources.<br/>
+Assignment 4 is a multi-threaded program where one thread reads in input from std-in, one thread replaces each '\n' with a space, one thread replaces every '++' with a '^', and the last thread outputs to std-out with 80 charachters per line. The program uses mutual exlusion to avoid race conditions found with sharing resources. To compile run: `gcc -pthread -std=gnu99 assign4.c -o a4`<br/>
 <img width="1421" alt="Screen Shot 2022-07-18 at 12 06 22 PM" src="https://user-images.githubusercontent.com/41707123/179590694-9a607d06-7793-455f-a12f-bf6219f61bc2.png">
 
 
